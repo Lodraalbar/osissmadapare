@@ -74,7 +74,7 @@ nav ul li a {
     color: #ffffff;
     padding: 5px 20px;
    background-color:#333333;
-    border-radius: 20px;
+    border-radius: 15px;
     font-family: "Teko", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -83,7 +83,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #fff;
+    background-color: #ff0000;
 }
 
 
@@ -184,6 +184,33 @@ nav ul li a:hover {
 .content a:hover {
     background-color: white;
 }
+
+.about {
+    /* background-color: #ff0000; */
+    display: flex;
+    justify-content: center;
+    padding: 6rem 7% 1.4rem;
+}
+
+.content-about {
+    width: 85%;
+    background-color: #FFD700;
+    padding: 10px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.content-about h1 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 30px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+}
+
+
+
        
       
 
