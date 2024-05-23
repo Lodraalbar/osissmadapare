@@ -186,17 +186,17 @@ nav ul li a:hover {
 }
 
 .about {
-    /* background-color: #ff0000; */
-    display: flex;
-    justify-content: center;
-    padding: 6rem 7% 1.4rem;
+    padding-top: 100px; /* Sesuaikan jarak antara navbar dan content-about */
 }
 
 .content-about {
-    width: 85%;
+    width: 75%;
     background-color: #FFD700;
-    padding: 10px 30px 30px 30px;
-    border-radius: 10px;
+    padding: 10px; /* Sesuaikan padding untuk tata letak yang lebih rapi */
+    padding-top: 2px;
+    border-radius: 15px;
+    margin: 0 auto; /* Membuat content-about berada di tengah */
+    margin-bottom: 30px; /* Tambahkan margin bawah untuk memisahkan dengan elemen berikutnya */
 }
 
 .content-about h1 {
@@ -207,6 +207,10 @@ nav ul li a:hover {
     font-size: 30px;
     font-style: normal;
     color: rgb(0, 0, 0);
+}
+
+.content-about p{
+    line-height: 24px;
 }
 
 
@@ -326,9 +330,12 @@ nav ul li a:hover {
 
     /* isi */
     .content-about h1 {
-        font-size: 20px;
+        font-size: 18px;
     }
     .content-about p {
         font-size: 13px;
+        line-height: 20px;
     }
+
+    
 }
