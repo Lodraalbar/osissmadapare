@@ -200,7 +200,7 @@ nav ul li a:hover {
 }
 
 .content-about {
-    width: 75%;
+    width: 80%;
     background-color: #222831;
     padding: 10px; /* Sesuaikan padding untuk tata letak yang lebih rapi */
     padding-top: 2px;
@@ -266,11 +266,13 @@ nav ul li a:hover {
         position: absolute;
         top: 0;
         right: 0;
-        height: 100vh;
-        background-color: #333;
+        height: 50vh;
+        background-color: #222831;
         width: 0; /* Awalnya sembunyikan tautan nav */
         overflow: hidden;
         transition: width 0.5s ease;
+        border-bottom: 3px solid rgb(255, 255, 255);
+        border-left:3px solid rgb(255, 255, 255) ;
     }
 
     .nav-links.active {
@@ -293,9 +295,9 @@ nav ul li a:hover {
 
     nav ul li a {
         text-decoration: none;
-        color: #000000;
+        color: white;
         padding: 5px 0px;
-        background-color: #ffc400;
+        background-color: #76ABAE;
         border-radius: 0px;
         font-family: "Teko", sans-serif;
         font-optical-sizing: auto;
