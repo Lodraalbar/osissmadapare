@@ -340,6 +340,11 @@ nav ul li a:hover {
     }
 
     /* isi */
+
+    .content-about{
+        width: 85%;
+        
+    }
     .content-about h1 {
         font-size: 18px;
     }
