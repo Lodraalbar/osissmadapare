@@ -1,9 +1,10 @@
 html, body {
     margin: 0;
     font-family: Arial, sans-serif;
-    height: 2000px;
+    /* height: 2000px; */
     /* background-color: black; */
     scroll-behavior: smooth;
+    padding: 0;
     
 }
 
@@ -150,7 +151,7 @@ nav ul li a:hover {
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: 50px;
+    font-size: 80px;
     padding:  0 0;
     margin-top: -30px;
     text-shadow: 
@@ -232,6 +233,92 @@ nav ul li a:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.2rem;
 }
+
+.periode {
+    background: linear-gradient(to bottom, black, #76ABAE);
+    height: 200vh;
+    /* margin-top: -10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+/* Tata letak dasar */
+
+
+/* Gaya untuk judul periode */
+.judul-periode{
+    /* background-color: blue; */
+    margin-top: -20rem;
+    width: 60%;
+}
+
+.judul-periode h1 {
+    font-size: 24px;
+    color: #333; /* Warna teks */
+    /* background-color: red; */
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-size: 2.5rem;
+    color: white;
+    letter-spacing: 0.3rem;
+    
+}
+
+/* Gaya untuk periode sekarang */
+.periode-sekarang {
+    margin-top: 20px; /* Jarak antara judul periode dan periode sekarang */
+    background-color: #fff;
+    width: 70%;
+    border-radius: 30px 0px 30px 0px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.4); /* Bayangan warna hitam */
+}
+
+/* Gaya untuk judul periode sekarang */
+.periode-sekarang h1 {
+    font-size: 2.5rem;
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 0.3rem;
+    padding: 0.8rem;
+    
+}
+
+#judulbold{
+    font-size: 1.6rem;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:500;
+    /* background-color: red; */
+   
+}
+
+.periode-sekarang p   {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    /* background-color: red; */
+    margin-top: -40px;
+    padding: 10px;
+    
+}
+
+#judulbold1{
+    font-size: 1.6rem;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:500;
+    /* background-color: red; */
+    margin-top: 1px;
+   
+}
+
 
 
 
@@ -362,6 +449,12 @@ nav ul li a:hover {
     .content-about p {
         font-size: 13px;
         line-height: 20px;
+    }
+
+    .content h1{
+        font-size: 2.8rem;
+        letter-spacing: 0.5rem;
+        margin-bottom: 4rem;
     }
 
     
