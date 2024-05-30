@@ -153,6 +153,12 @@ nav ul li a:hover {
     font-size: 50px;
     padding:  0 0;
     margin-top: -30px;
+    text-shadow: 
+    -0.8px -0.8px 0 white,  
+    0.8px -0.8px 0 white,
+    -0.8px 0.8px 0 white,
+    0.8px 0.8px 0 white;
+    letter-spacing: 0.9rem;
 }
 
 .content p{
@@ -217,11 +223,14 @@ nav ul li a:hover {
     font-size: 30px;
     font-style: normal;
     color: white;
+    letter-spacing: 0.4rem;
 }
 
 .content-about p{
     line-height: 24px;
     color: #EEEEEE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
 }
 
 
@@ -271,8 +280,8 @@ nav ul li a:hover {
         width: 0; /* Awalnya sembunyikan tautan nav */
         overflow: hidden;
         transition: width 0.5s ease;
-        border-bottom: 3px solid rgb(255, 255, 255);
-        border-left:3px solid rgb(255, 255, 255) ;
+        border-bottom: 10px solid rgb(255, 255, 255);
+        /* border-left:3px solid rgb(255, 255, 255) ; */
     }
 
     .nav-links.active {
